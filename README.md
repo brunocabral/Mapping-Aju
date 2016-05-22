@@ -4,18 +4,29 @@
 
 A rede de transporte público de ônibus é de grande importância na rotina da maioria dos aracajuanos,
 Porém a mobilidade dentro dela é nebulosa para quem não tem conhecimento dos itinerários das linhas.
-"Eu tenho que ir para a praça da bandeira, que opções de linhas de ônibus tenho para conseguir chegar lá a partir de onde estou agora?
-Com a rede mapeada, acredito que o desenvolvimento de apps que girem em torno do transporte público da cidade torna-se muito mais viável,
-além de ser possível mais tarde gerar um mapa da rede total [Ex.:Mapa da Rede de Transporte Público de Dublin, Irlanda](http://i.imgur.com/BHPf7.gif), facilitando a vida dos usuários que poderãovisualizar as conexões dentro da cidade.
+"Eu tenho que ir para a praça da bandeira, que opções de linhas de ônibus tenho para conseguir chegar lá a partir de onde estou agora? Espero que este tipo de pergunta possa ser respondida sem precisar com facilidade.
+Com a rede mapeada, acredito que o desenvolvimento de apps que girem em torno do transporte público da cidade torna-se muito mais viável, além de ser possível mais tarde gerar um mapa da rede total [Ex.:Mapa da Rede de Transporte Público de Dublin, Irlanda](http://i.imgur.com/BHPf7.gif), facilitando a vida dos usuários que poderãovisualizar as conexões dentro da cidade.
 
 
+## Folder
+
+`lines` : Contem todos os arquivos .geoson das linhas de onibus mapeadas.
+`stops` : Contem todos os pontos de ônibus mapeados.
+`repository`: outros arquivos.
+
+## How to
+
+	Como mapear linhas
+		Seguir o tutorial em '\lines\readme-lines.txt'
+	Como mapear os pontos de ônibus
+		Seguir o tutorial em '\lines\readme-stops.txt'
 
 
 ## Tools References
 
-[GeoJSON](http://geojson.org/) - Um tipo de JSON que facilita trabalhar com dados geográficos.
+[GeoJSON](http://geojson.org/) : Um tipo de JSON que facilita trabalhar com dados geográficos.
 
-[Geojson.io] () - Ferramenta que gera o geojson a partir de marcação diretamente no mapa. Agradecimento a [@tmcw](https://github.com/tmcw) por criar e disponibilizar a ferramenta.
+[Geojson.io](http://geojson.io/#id=gist:anonymous/3bc6ed80aa42b911aec7&map=13/-10.9295/-37.0971) : Ferramenta que gera o geojson a partir de marcação diretamente no mapa. Agradecimento a [@tmcw](https://github.com/tmcw) por criar e disponibilizar a ferramenta.
 
 
 
