@@ -11,5 +11,12 @@ além de ser possível mais tarde gerar um mapa da rede total [Ex.:Mapa da Rede de
 
 
 
+## Ferramentas
+
+[GeoJSON](http://geojson.org/) - Um tipo de JSON que facilita trabalhar com dados geográficos.
+
+[Geojson.io] () - Ferramenta que gera o geojson a partir de marcação diretamente no mapa. Agradecimento a [@tmcw](https://github.com/tmcw) por criar e disponibilizar a ferramenta.
+
+
 
 
