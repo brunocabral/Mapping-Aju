@@ -1,6 +1,6 @@
 # Mapping Aju - Mapeando a rede de transporte público de ônibus de Aracaju
 
-## Motivação
+## Motivation
 
 A rede de transporte público de ônibus é de grande importância na rotina da maioria dos aracajuanos,
 Porém a mobilidade dentro dela é nebulosa para quem não tem conhecimento dos itinerários das linhas.
@@ -11,7 +11,7 @@ além de ser possível mais tarde gerar um mapa da rede total [Ex.:Mapa da Rede de
 
 
 
-## Ferramentas
+## Tools References
 
 [GeoJSON](http://geojson.org/) - Um tipo de JSON que facilita trabalhar com dados geográficos.
 
