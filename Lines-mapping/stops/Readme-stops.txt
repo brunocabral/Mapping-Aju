@@ -1,5 +1,6 @@
 ## Guidelines para mapear um ponto de ônibus ##
 
+### MÉTODO DE MAPEAMENTO A SER MELHORADO !!
 O mapeamento deste ainda não está sendo realizado da melhor maneira pois está tudo sobre o mesmo arquivo...
 
 1. Abrir o arquivo stops.geojson na ferramente GeoJson.io
