@@ -1,13 +1,13 @@
-# Mapping Aju - Mapeando a rede de transporte p˙blico de Ùnibus de Aracaju
+# Mapping Aju - Mapeando a rede de transporte p√∫blico de √¥nibus de Aracaju
 
 ## Motivation
 
-A rede de transporte p˙blico de Ùnibus È de grande import‚ncia na rotina da maioria dos aracajuanos,
-PorÈm a mobilidade dentro dela È nebulosa para quem n„o tem conhecimento das rotas das linhas.
-"Eu tenho que ir para a praÁa da bandeira, quais opÁıes de linhas de Ùnibus tenho para conseguir chegar l· a partir de onde estou agora? Espero que este tipo de pergunta possa ser respondida com mais facilidade.
-Com a rede mapeada, acredito que o desenvolvimento de apps que girem em torno do transporte p˙blico da cidade torna-se muito mais vi·vel, alÈm de ser possÌvel mais tarde gerar um mapa da rede total [Ex.:Mapa da Rede de Transporte P˙blico de Dublin, Irlanda](http://i.imgur.com/BHPf7.gif), facilitando a vida dos usu·rios que poder„o visualizar as conexıes dentro da cidade.
+A rede de transporte p√∫blico de √¥nibus √© de grande import√¢ncia na rotina da maioria dos aracajuanos,
+Por√©m a mobilidade dentro dela √© nebulosa para quem n√£o tem conhecimento das rotas das linhas.
+"Eu tenho que ir para a pra√ßa da bandeira, quais op√ß√µes de linhas de √¥nibus tenho para conseguir chegar l√° a partir de onde estou agora? Espero que este tipo de pergunta possa ser respondida com mais facilidade.
+Com a rede mapeada, acredito que o desenvolvimento de apps que girem em torno do transporte p√∫blico da cidade torna-se muito mais vi√°vel, al√©m de ser poss√≠vel mais tarde gerar um mapa da rede total [Ex.:Mapa da Rede de Transporte P√∫blico de Dublin, Irlanda](http://i.imgur.com/BHPf7.gif), facilitando a vida dos usu√°rios que poder√£o visualizar as conex√µes dentro da cidade.
 
-[Preview](all-lines-preview-example.geojson)
+[Preview do mapeamento completo (exemplo)](all-lines-preview-example.geojson)
 
 ## Folder
 
@@ -22,9 +22,9 @@ Com a rede mapeada, acredito que o desenvolvimento de apps que girem em torno do
 
 ## Tools References
 
-[GeoJSON](http://geojson.org/) : Um tipo de JSON que facilita trabalhar com dados geogr·ficos.
+[GeoJSON](http://geojson.org/) : Um tipo de JSON que facilita trabalhar com dados geogr√°ficos.
 
-[Geojson.io](http://geojson.io/#id=gist:anonymous/3bc6ed80aa42b911aec7&map=13/-10.9295/-37.0971) : Ferramenta que gera o geojson a partir de marcaÁ„o diretamente no mapa. Agradecimento a [@tmcw](https://github.com/tmcw) por criar e disponibilizar a ferramenta.
+[Geojson.io](http://geojson.io/#id=gist:anonymous/3bc6ed80aa42b911aec7&map=13/-10.9295/-37.0971) : Ferramenta que gera o geojson a partir de marca√ß√£o diretamente no mapa. Agradecimento a [@tmcw](https://github.com/tmcw) por criar e disponibilizar a ferramenta.
 
 
 
