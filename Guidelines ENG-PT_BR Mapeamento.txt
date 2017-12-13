@@ -1,0 +1,53 @@
+-- VERSÃO EM PORTUGUÊS MAIS ABAIXO --
+
+## Guidelines (ENGLISH) to map a bus line## 
+
+1. The mapping must be done using Geojson.io (access the website) and using the line tool (draw a polyline).
+	Using as reference the itineraries published by SMTT (http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus);
+     
+2. Each bus lines has 2 directions - "ida" (ingoing) and "volta" (returning), thus a independent set of polylines for each way (consequently, create separate files);
+
+3. To make easier to visualize, for each polyline set should be defined constricting colors ( red color for "ida", blue color for "volta");
+
+4. The published official itineraries (routes) are used as reference. Available at SMTT website (http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus)
+	4.1 Some name streets diverge depending on the map tool, so others map tools may be used to support mapping, such as OpenStreetMap and Google Maps, for example.
+
+5. After mapping the bus line, it is added additional attributes (add new row).
+	5.1 bus-line: bus line number 
+	5.2 bus-route: ingoing ou returning direction of the bus line according to the route.
+		Eg: 009 - Terminal Marcos Freire / Atalaia
+		 so bus-route: terminalMarcosFreire-atalaia (identation lowerCamelCase)
+		 and the same for the opposite direction: bus-route: atalaia-terminalMarcosFreire
+	5.3 bus-direction: *direction of the set according to the bus line(0 or 1) 0 for "ida", 1 for "volta".
+ *Consider 'ida' the first route in the PDF published by SMTT.
+
+6. Finishing mapping: Save > GeoJSON, file name follows the format: \lines\"lineNumberHere-ida(or volta)".geojson. Eg.: lines\031-ida.geojson
+
+
+
+
+
+
+## Guidelines (PT-BR) para mapear uma linha de onibus ## 
+
+1. O mapeamento deve ser feito usando através do Geojson.io (acessar o site) usando a ferramenta linha (draw a polyline).
+   Utilizando como referência os itinerários disponibilizados pela SMTT (http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus)
+     
+2. Cada linha de ônibus tem 2 sentidos (ida e volta), 
+portanto deve ser mapeado um conjunto independente de polylines para cada sentido (consequentemente, criar arquivos separados).
+
+3. Para facilitar a visualização, para cada conjunto de polyline, a stroke é definida com cores contrastantes (Vermelho para a sentido de 'ida' e Azul para a 'volta')
+
+4. Os itinerários (rotas) oficiais publicados são utilizados como referências. Disponíveis no site da SMTT (http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus)
+	4.1 Algumas ruas divergem de nomenclatura dependendo do mapa a ser consultado, por isso pode ser também utilizadas como auxílio outras ferramentas de mapas como o OpenStreetMap e o Google Maps, por exemplo.
+
+5. Após o mapeamento da linha, adiciona-se atributos adicionais (add new row).
+	5.1 bus-line: digitar numero da linha
+	5.2 bus-route: sentido da linha de acordo com a rota.
+		Ex: 009- Terminal Marcos Freire / Atalaia
+		 então bus-route: terminalMarcosFreire-atalaia (identação lowerCamelCase)
+		 e o mesmo para o sentido oposto bus-route: atalaia-terminalMarcosFreire
+	5.3 bus-direction: *sentido da linha (0 ou 1) 0 para ida, 1 para volta.
+ *Consideramos 'ida' o primeiro itinerário no documento disponibilizado pela SMTT
+
+6. Finalizando o mapeamento. Save > GeoJSON, o nome do arquivo segue o formato \lines\"numerodalinha-ida(ou volta)".geojson. Ex lines\031-ida.geojson

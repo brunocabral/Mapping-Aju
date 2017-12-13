@@ -1,31 +1,32 @@
-# Mapping Aju - Mapeando a rede de transporte público de ônibus de Aracaju
+# Mapping Aju - Mapping the public bus transportation network of Aracaju, Brazil. Mapeando a rede de transporte público de ônibus de Aracaju
 
 ## Motivation
 
-A rede de transporte público de ônibus é de grande importância na rotina da maioria dos aracajuanos,
-Porém a mobilidade dentro dela é nebulosa para quem não tem conhecimento das rotas das linhas.
-"Eu tenho que ir para a praça da bandeira, quais opções de linhas de ônibus tenho para conseguir chegar lá a partir de onde estou agora? Espero que este tipo de pergunta possa ser respondida com mais facilidade.
-Com a rede mapeada, acredito que o desenvolvimento de apps que girem em torno do transporte público da cidade torna-se muito mais viável, além de ser possível mais tarde gerar um mapa da rede total [Ex.:Mapa da Rede de Transporte Público de Dublin, Irlanda](http://i.imgur.com/BHPf7.gif), facilitando a vida dos usuários que poderão visualizar as conexões dentro da cidade.
+The public bus transportation network has a great importance in the routine of the major part of the inhabitants of Aracaju-SE, Brazil,
+However, the mobility inside the network is cloudy for those whom has no knowledge of the bus lines' routes,
 
-[Preview do mapeamento completo (exemplo)](all-lines-preview-example.geojson)
+"I've got to go the Praça da Bandeira (Flag Square), which options of bus lines do I have to get there from where I am now?"
+
+With this project I hope that this kind of question could be answered easier. I believe that with the entire bus network mapped, the development of news apps about public transportation in the city would be easier, besides the possibity of generate a graphical map of the entire network [Ex.:Mapa da Rede de Transporte Público de Dublin, Irlanda](http://i.imgur.com/BHPf7.gif), making easier the lives of the users, whom will be able to visualize the connections between the lines around the city.
+
+[Preview of the complete mapping (example)](all-lines-preview-example.geojson)
 
 ## Folder
 
-`lines` : Contem todos os arquivos .geoson das linhas de onibus mapeadas.
-`repository`: outros arquivos.
+`lines` : Contains all .geoson files of the mapped bus lines.
+`repository`: other files.
 
 ## How to
 
-	Como mapear linhas
-		Seguir o tutorial em '\lines\readme-lines.txt'
+	How the lines are being mapped
+		Seguir o tutorial em '\Guidelines ENG-PT_BR Mapeamento.txt'
 
 
 ## Tools References
 
-[GeoJSON](http://geojson.org/) : Um tipo de JSON que facilita trabalhar com dados geográficos.
+[GeoJSON](http://geojson.org/) : A type of JSON that make easier to work with geograpghic data.
 
-[Geojson.io](http://geojson.io/#id=gist:anonymous/3bc6ed80aa42b911aec7&map=13/-10.9295/-37.0971) : Ferramenta que gera o geojson a partir de marcação diretamente no mapa. Agradecimento a [@tmcw](https://github.com/tmcw) por criar e disponibilizar a ferramenta.
-
+[Geojson.io](http://geojson.io/#id=gist:anonymous/3bc6ed80aa42b911aec7&map=13/-10.9295/-37.0971) : Tool for generate geojson format from drag-n-drop interactions on a map. Thanks to [@tmcw](https://github.com/tmcw) for creating and making the tool available.
 
 
 
