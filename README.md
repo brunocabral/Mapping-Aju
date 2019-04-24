@@ -26,7 +26,7 @@ With this project I hope that this kind of question could be answered easier. I 
 
 [GeoJSON](http://geojson.org/) : A type of JSON that make easier to work with geograpghic data.
 
-[Geojson.io](http://geojson.io/#id=gist:anonymous/3bc6ed80aa42b911aec7&map=13/-10.9295/-37.0971) : Tool for generate geojson format from drag-n-drop interactions on a map. Thanks to [@tmcw](https://github.com/tmcw) for creating and making the tool available.
+[Geojson.io](http://geojson.io/#id=gist:anonymous/3bc6ed80aa42b911aec7&map=13/-10.9295/-37.0971) : Tool for generating geojson format from drag-n-drop interactions on a map. Thanks to [@tmcw](https://github.com/tmcw) for creating and making the tool available.
 
 
 
