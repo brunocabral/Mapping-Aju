@@ -5,7 +5,7 @@
 The public bus transportation network has a great importance in the routine of the major part of the inhabitants of Aracaju-SE, Brazil.
 However, the mobility inside the network is cloudy for those whom has no knowledge about the bus lines' routes.
 
-"I've got to go to "Praça da Bandeira" (Flag Square), which options of bus lines do I have to get there from where I am now?"
+"I've got to go to "point of interest A" , which options of bus lines do I have to get there from where I am now?"
 
 With this project I hope that this kind of question could be answered easier. I believe that with the entire bus network mapped the development of news apps about public transportation in the city would be easier, besides the possibility of generating a graphical map of the entire network [Ex.:Public Transport Network Map of Dublin, Ireland](http://i.imgur.com/BHPf7.gif), making easier the lives of the users, whom will be able to visualize the connections between the lines around the city.
 
